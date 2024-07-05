@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-wrap: wrap;  /*this is used to wrap image in next line*/
+}
+
+.card{
+    height: 130px;
+    width: 100px;
+    border: 1px solid black;
+     border-radius: 10px;  /* for cruve */
+     margin-top: 10px;
+     margin-left: 10px;
+     overflow: hidden ; /* for border to not cut */
+     display: flex;
+
+
+}
+
+.card img{
+   width: 90%;
+}
